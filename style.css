@@ -1,0 +1,111 @@
+* {
+    /* for the sake of consistency */
+    font-family: Arial, sans-serif;
+
+    /* Brought in from my Usual Template at https://archive.thelonelylands.com/docs/language/css#usual-template */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general body styles */
+body {
+    background-color: #f4f4f4;
+}
+
+/* header title container */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* the top text of the page */
+.header-title {
+    font-weight: 400;
+    text-align: center;
+}
+
+/* the primary pizza order form */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* the fieldset and legend for more micro grouping */
+fieldset {
+    border-radius: 10px;
+    padding: 13px;
+    border: 1px solid #0000001f;
+    margin-bottom: 20px
+}
+
+legend {
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* radio cont */
+.radio-check-cont {
+    display: flex;
+}
+
+.radio-check-cont label {
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+/* form submit button */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
